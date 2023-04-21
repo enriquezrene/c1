@@ -1,0 +1,35 @@
+Write a function that accepts a positive integer. We will perform a series of operations on that input until we terminate.
+
+While the input is greater than 1, we will divide it by two if it is/ even, otherwise, we will multiply it by 3 and add 1.
+
+We will do this until we reduce the input value to 1. The final output should be all the integers we see between the input and 1, inclusive.
+
+
+
+const reduceFunction = (input: number): number =>{
+    let output = 0
+    if(input<1){
+        response 400
+        throw new Error(`Invalid input provided ${inpunt}`)
+    } 
+    if(input>1){
+        const isEven = input%2==0;
+        if(isEven){
+            output = input / 2
+        } else {
+            output = (input * 3) + 1
+        }
+    }
+    if(output === 1){
+        return
+    } else {
+        200
+        reduceFunction(output)
+    }
+    /path/solution
+}
+
+/path/solution => in progress, done solution
+
+hateoas 
+stream
